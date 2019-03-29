@@ -147,11 +147,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="RealmlistSwitcher.Win32.h" />
     <ClInclude Include="Resource.h" />
+    <ClInclude Include="UI\MainMenu.h" />
+    <ClInclude Include="UI\MainWindow.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="UI\MainMenu.cpp" />
+    <ClCompile Include="UI\MainWindow.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="RealmlistSwitcher.Win32.rc" />
